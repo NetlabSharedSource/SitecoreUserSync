@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.SharedSource.UserSync", "Sitecore.SharedSource.UserSync\Sitecore.SharedSource.UserSync.csproj", "{9A1BAE6C-3CE3-4BD6-BB65-0F6DC6DA8F2D}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.SharedSource.UserSync.Master", "Sitecore.SharedSource.UserSync.Master\Sitecore.SharedSource.UserSync.Master.scproj", "{CE93C9F8-A9FF-465D-9654-A83DCA7AF4AD}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.SharedSource.UserSync.Core", "Sitecore.SharedSource.UserSync.Core\Sitecore.SharedSource.UserSync.Core.scproj", "{FE9B9155-4DA2-4224-B772-96BFB33C0C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodtBrod.UserSync", "GodtBrod.UserSync\GodtBrod.UserSync.csproj", "{899C8810-61DA-4436-9AEF-FBB69981027F}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "GodtBrod.UserSync.Master", "GodtBrod.UserSync.Master\GodtBrod.UserSync.Master.scproj", "{F506C14D-DA28-4CFC-98D6-A94724A0683E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.SharedSource.ImportLogger", "Sitecore.SharedSource.ImportLogger\Sitecore.SharedSource.ImportLogger.csproj", "{9F9FC2C9-740F-453A-8C3D-A91BC8AFA2CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportLogger.Test", "ImportLogger.Test\ImportLogger.Test.csproj", "{D4F8C0D5-1AD9-4F9D-A481-8FE52B4312BA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.60:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sitecore.SharedSource.UserSync.Core\\Sitecore.SharedSource.UserSync.Core.scproj
+		SccProjectName1 = Sitecore.SharedSource.UserSync.Core
+		SccLocalPath1 = Sitecore.SharedSource.UserSync.Core
+		SccProjectUniqueName2 = Sitecore.SharedSource.UserSync.Master\\Sitecore.SharedSource.UserSync.Master.scproj
+		SccProjectName2 = Sitecore.SharedSource.UserSync.Master
+		SccLocalPath2 = Sitecore.SharedSource.UserSync.Master
+		SccProjectUniqueName3 = Sitecore.SharedSource.UserSync\\Sitecore.SharedSource.UserSync.csproj
+		SccProjectName3 = Sitecore.SharedSource.UserSync
+		SccLocalPath3 = Sitecore.SharedSource.UserSync
+		SccProjectUniqueName4 = GodtBrod.UserSync\\GodtBrod.UserSync.csproj
+		SccProjectName4 = GodtBrod.UserSync
+		SccLocalPath4 = GodtBrod.UserSync
+		SccProjectUniqueName5 = GodtBrod.UserSync.Master\\GodtBrod.UserSync.Master.scproj
+		SccProjectName5 = GodtBrod.UserSync.Master
+		SccLocalPath5 = GodtBrod.UserSync.Master
+		SccProjectUniqueName6 = Sitecore.SharedSource.ImportLogger\\Sitecore.SharedSource.ImportLogger.csproj
+		SccProjectName6 = Sitecore.SharedSource.ImportLogger
+		SccLocalPath6 = Sitecore.SharedSource.ImportLogger
+		SccProjectUniqueName7 = ImportLogger.Test\\ImportLogger.Test.csproj
+		SccProjectName7 = ImportLogger.Test
+		SccLocalPath7 = ImportLogger.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A1BAE6C-3CE3-4BD6-BB65-0F6DC6DA8F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1BAE6C-3CE3-4BD6-BB65-0F6DC6DA8F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1BAE6C-3CE3-4BD6-BB65-0F6DC6DA8F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1BAE6C-3CE3-4BD6-BB65-0F6DC6DA8F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE93C9F8-A9FF-465D-9654-A83DCA7AF4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE93C9F8-A9FF-465D-9654-A83DCA7AF4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE93C9F8-A9FF-465D-9654-A83DCA7AF4AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CE93C9F8-A9FF-465D-9654-A83DCA7AF4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE93C9F8-A9FF-465D-9654-A83DCA7AF4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE93C9F8-A9FF-465D-9654-A83DCA7AF4AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FE9B9155-4DA2-4224-B772-96BFB33C0C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9B9155-4DA2-4224-B772-96BFB33C0C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9B9155-4DA2-4224-B772-96BFB33C0C99}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE9B9155-4DA2-4224-B772-96BFB33C0C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9B9155-4DA2-4224-B772-96BFB33C0C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9B9155-4DA2-4224-B772-96BFB33C0C99}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{899C8810-61DA-4436-9AEF-FBB69981027F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899C8810-61DA-4436-9AEF-FBB69981027F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899C8810-61DA-4436-9AEF-FBB69981027F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899C8810-61DA-4436-9AEF-FBB69981027F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F506C14D-DA28-4CFC-98D6-A94724A0683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F506C14D-DA28-4CFC-98D6-A94724A0683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F506C14D-DA28-4CFC-98D6-A94724A0683E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F506C14D-DA28-4CFC-98D6-A94724A0683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F506C14D-DA28-4CFC-98D6-A94724A0683E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F506C14D-DA28-4CFC-98D6-A94724A0683E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F9FC2C9-740F-453A-8C3D-A91BC8AFA2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9FC2C9-740F-453A-8C3D-A91BC8AFA2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9FC2C9-740F-453A-8C3D-A91BC8AFA2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9FC2C9-740F-453A-8C3D-A91BC8AFA2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F8C0D5-1AD9-4F9D-A481-8FE52B4312BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F8C0D5-1AD9-4F9D-A481-8FE52B4312BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F8C0D5-1AD9-4F9D-A481-8FE52B4312BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F8C0D5-1AD9-4F9D-A481-8FE52B4312BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
