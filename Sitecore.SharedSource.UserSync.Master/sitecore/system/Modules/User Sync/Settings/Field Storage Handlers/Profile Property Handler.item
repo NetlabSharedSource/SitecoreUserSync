@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {6931A452-4E59-4F50-9F67-F9D5BB021C3F}
+database: master
+path: /sitecore/system/Modules/User Sync/Settings/Field Storage Handlers/Profile Property Handler
+parent: {D72F7BF7-EE22-413A-B0C2-BC942B236A1D}
+name: Profile Property Handler
+master: {00000000-0000-0000-0000-000000000000}
+template: {751325B2-A0F4-4F80-A8B0-626886A060EC}
+templatekey: Field Storage Handler
+
+----field----
+field: {FBFC9143-63D8-4089-AFF6-73964E43EDDA}
+name: Handler Class
+key: handler class
+content-length: 83
+
+Sitecore.SharedSource.UserSync.Mappings.FieldStorageHandlers.ProfilePropertyHandler
+----field----
+field: {2802BE4D-9382-4ADA-A5C1-EC51A338454D}
+name: Handler Assembly
+key: handler assembly
+content-length: 30
+
+Sitecore.SharedSource.UserSync
+----version----
+language: en
+version: 1
+revision: 9a34e09b-5308-4e51-8f98-fc36ac5fb067
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 20
+
+sitecore\netlabadmin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131115T113859
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\netlabadmin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9a34e09b-5308-4e51-8f98-fc36ac5fb067
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131115T114018:635201124180900382
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\netlabadmin

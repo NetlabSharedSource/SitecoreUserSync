@@ -1,0 +1,6 @@
+.\Debug\Sitecore modules\Shell\UserSync\Wizards\FileUpload\UploadFile.aspx
+.\Debug\App_Config\include\Sitecore.SharedSource.UserSync.config
+.\Debug\Sitecore modules\Shell\UserSync\Wizards\FromFileUserSyncWizard.xml
+.\Debug\Sitecore modules\Shell\UserSync\Wizards\UserSyncWizard.xml
+.\Debug\bin\Sitecore.SharedSource.UserSync.dll
+.\Debug\bin\Sitecore.SharedSource.UserSync.pdb

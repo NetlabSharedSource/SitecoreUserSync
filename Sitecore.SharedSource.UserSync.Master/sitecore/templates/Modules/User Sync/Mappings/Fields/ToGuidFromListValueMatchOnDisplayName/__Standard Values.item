@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {3E26B714-EBD9-41C4-B2AF-9E1804C38F6D}
+database: master
+path: /sitecore/templates/Modules/User Sync/Mappings/Fields/ToGuidFromListValueMatchOnDisplayName/__Standard Values
+parent: {391DCCDB-2201-4925-A61B-D5D885E450DC}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {391DCCDB-2201-4925-A61B-D5D885E450DC}
+templatekey: ToGuidFromListValueMatchOnDisplayName
+
+----field----
+field: {D1EDE1A1-C0FB-4673-AF54-B062ECC29D67}
+name: Handler Class
+key: handler class
+content-length: 89
+
+Sitecore.SharedSource.UserSync.Mappings.Fields.ToGuidFromListValueMatchOnDisplayNameField
+----version----
+language: en
+version: 1
+revision: 390774df-9f45-49ec-b185-151e9c1a6b4a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131123T222230
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+390774df-9f45-49ec-b185-151e9c1a6b4a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131123T223909:635208431494878172
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\netlabadmin

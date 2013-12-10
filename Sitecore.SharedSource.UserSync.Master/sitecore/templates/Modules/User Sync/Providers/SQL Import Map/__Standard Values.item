@@ -1,0 +1,133 @@
+----item----
+version: 1
+id: {B9B4F0F5-78DC-4724-99A4-00C96FE599B5}
+database: master
+path: /sitecore/templates/Modules/User Sync/Providers/SQL Import Map/__Standard Values
+parent: {4C7BCCFB-7D4C-4DF9-AE0A-E67B10F4D878}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4C7BCCFB-7D4C-4DF9-AE0A-E67B10F4D878}
+templatekey: SQL Import Map
+
+----field----
+field: {124A859A-A770-42A9-947D-95A50B8CB1B3}
+name: Handler Class
+key: handler class
+content-length: 51
+
+Sitecore.SharedSource.UserSync.Providers.SQLDataMap
+----field----
+field: {0AFD57E7-9EAF-4240-A312-BC521D948158}
+name: Handler Assembly
+key: handler assembly
+content-length: 30
+
+Sitecore.SharedSource.UserSync
+----field----
+field: {0C894AAB-962B-4A84-B923-CB24B05E60D2}
+name: __Ribbon
+key: __ribbon
+content-length: 38
+
+{0501E41D-3DC2-4D2B-86F2-7FF34C4DC5BC}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: cb3251d5-a2aa-4602-a50f-c8f0005eaf8f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20091007T111330
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb3251d5-a2aa-4602-a50f-c8f0005eaf8f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131122T000459:635206754994887857
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\netlabadmin
+----version----
+language: nb-NO
+version: 1
+revision: 9e75869f-d378-462e-9be1-51e4fcf9b374
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 20
+
+sitecore\netlabadmin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130916T230832
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\netlabadmin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9e75869f-d378-462e-9be1-51e4fcf9b374
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131104T155727:635191774471985478
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\netlabadmin

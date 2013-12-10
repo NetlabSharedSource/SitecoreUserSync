@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {07D3D750-B35F-4026-9332-9287C468A086}
+database: master
+path: /sitecore/templates/Modules/User Sync/Mappings/Fields/ToBoolean/__Standard Values
+parent: {A008EE6A-1BF5-4CA3-87D8-7472834700ED}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A008EE6A-1BF5-4CA3-87D8-7472834700ED}
+templatekey: ToBoolean
+
+----field----
+field: {4C114C2D-D460-4168-87D5-9EF2FD473F71}
+name: What String To Identify True Bool Value
+key: what string to identify true bool value
+content-length: 4
+
+true
+----field----
+field: {B9EEB8B4-215C-4C2F-8ECA-11723810F4CB}
+name: What String To Identify False Bool Value
+key: what string to identify false bool value
+content-length: 5
+
+false
+----field----
+field: {D1EDE1A1-C0FB-4673-AF54-B062ECC29D67}
+name: Handler Class
+key: handler class
+content-length: 61
+
+Sitecore.SharedSource.UserSync.Mappings.Fields.ToBooleanField
+----version----
+language: en
+version: 1
+revision: f36f0a13-7305-422f-9673-9403cacf9ec8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131123T210056
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f36f0a13-7305-422f-9673-9403cacf9ec8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131123T223701:635208430212214807
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\netlabadmin

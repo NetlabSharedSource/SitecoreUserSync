@@ -1,0 +1,4 @@
+.\Release\App_Config\include\Sitecore.SharedSource.UserSync.config
+.\Release\Sitecore modules\Shell\UserSync\UserSyncWizard.xml
+.\Release\bin\Sitecore.SharedSource.UserSync.dll
+.\Release\bin\Sitecore.SharedSource.UserSync.pdb
