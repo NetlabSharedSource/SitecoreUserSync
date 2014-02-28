@@ -36,7 +36,7 @@
                         if (dictionary != null)
                             message = dictionary[0];
 
-                        alert('"' + finput.value + '" ' + message);
+                        alert('"' + finput.value + '" ');
                     }
                 }
         }
