@@ -1284,7 +1284,7 @@ namespace Sitecore.SharedSource.UserSync.Providers
         {
             const string strPwdChar = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             var strPwd = String.Empty;
-            Random rnd = new Random();
+            var rnd = new Random();
             for (var i = 0; i < passwordLength; i++)
             {
                 var iRandom = rnd.Next(0, strPwdChar.Length - 1);
@@ -1322,7 +1322,15 @@ namespace Sitecore.SharedSource.UserSync.Providers
                 // Create user
                 if (User.Exists(fullName))
                 {
-                    LogBuilder.Log("Error", String.Format("The CreateUser method failed because a user with that userName already exists. The user could not be created. This can happen if the key for the user is not the username. The creation of the user was aborted. ImportRow: {0}. UserName: {1}.", GetImportRowDebugInfo(importRow), userName));
+                    var existingUser = User.FromName(fullName, true);
+                    string existingUserKey = String.Empty;
+                    if (existingUser != null)
+                    {
+                        existingUserKey = GetKeyValueFromUser(existingUser, ref errorMessage);
+                    }
+                    LogBuilder.Log("Error", String.Format("The CreateUser method failed because a user with that userName already exists, but with a different key. The key on the existing user: '{0}'. " +
+                                                          "The user could not be created. This can happen if the key for the user is not the username. " +
+                                                          "ExistingUser: {1}. ImportRow: {2}. UserName: {3}. Error: {4}.", existingUserKey, GetUserDebugInfo(existingUser), GetImportRowDebugInfo(importRow), userName, errorMessage));
                     LogBuilder.FailureUsers += 1;
                     return false;
                 }
