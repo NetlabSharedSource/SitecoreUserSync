@@ -46,6 +46,16 @@
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\Resources\Sitecore.Kernel.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Logging, Version=1.2.0.30715, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Sitecore.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Update">
+      <HintPath>..\Resources\Sitecore.Update.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Zip">
+      <HintPath>..\Resources\Sitecore.Zip.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
