@@ -1,0 +1,133 @@
+----item----
+version: 1
+id: {558F0B27-4CA4-4E00-85C3-AB4E945F09FF}
+database: master
+path: /sitecore/templates/Modules/User Sync/Mappings/Fields/ToRoleMembership/__Standard Values
+parent: {A21DDD31-FC5E-4E60-B5C9-086B8D9D460B}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A21DDD31-FC5E-4E60-B5C9-086B8D9D460B}
+templatekey: ToRoleMembership
+
+----field----
+field: {E8210863-60B9-4321-BE54-3A2EF74B019B}
+name: Field Storage Handler
+key: field storage handler
+content-length: 38
+
+{FE6921EC-036B-4DE4-91F9-C21397CDD939}
+----field----
+field: {918124D4-E826-4CCD-8C80-D3D84500F23E}
+name: True Value
+key: true value
+content-length: 1
+
+1
+----field----
+field: {D1EDE1A1-C0FB-4673-AF54-B062ECC29D67}
+name: Handler Class
+key: handler class
+content-length: 63
+
+Sitecore.SharedSource.UserSync.Mappings.Fields.ToRoleMembership
+----field----
+field: {702794B4-7451-4BC0-A5D3-EE5837CD70E0}
+name: Handler Assembly
+key: handler assembly
+content-length: 30
+
+Sitecore.SharedSource.UserSync
+----field----
+field: {AB5C1763-043C-406E-8C70-EE1638E2913C}
+name: From What Fields
+key: from what fields
+content-length: 5
+
+$name
+----version----
+language: en
+version: 1
+revision: 881613ec-d6fa-4d6c-b0b4-3c3e120b8cc7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110704T103557
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+881613ec-d6fa-4d6c-b0b4-3c3e120b8cc7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141024T090348:635497382289544221
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: nb-NO
+version: 1
+revision: ac165b3c-d5d2-4ba2-8b95-5a742f239b16
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 20
+
+sitecore\netlabadmin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130919T122038
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\netlabadmin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac165b3c-d5d2-4ba2-8b95-5a742f239b16
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131115T114208:635201125288413728
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\netlabadmin
