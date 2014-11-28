@@ -92,6 +92,7 @@
     <Compile Include="AppCode\Mappings\Fields\ToEmailField.cs" />
     <Compile Include="AppCode\Mappings\Fields\ToGuidFromListValueMatchOnDisplayNameField.cs" />
     <Compile Include="AppCode\Mappings\Fields\ToNumberField.cs" />
+    <Compile Include="AppCode\Mappings\Fields\ToRoleMembership.cs" />
     <Compile Include="AppCode\Mappings\Fields\ToTextField.cs" />
     <Compile Include="AppCode\Mappings\Fields\IBaseField.cs" />
     <Compile Include="AppCode\Mappings\UserKeyHandlers\BaseUserKeyHandler.cs" />
